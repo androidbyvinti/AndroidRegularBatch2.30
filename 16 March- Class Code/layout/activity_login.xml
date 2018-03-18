@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/custom_button_style">
+
+    <!--<ImageView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:background="@color/colorRed" />-->
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/heart"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:id="@+id/imageView"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Logo"
+        android:textSize="30sp"
+        android:layout_below="@+id/imageView"
+        android:textAlignment="center" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Facebook"
+        android:textSize="22sp"
+        android:drawableLeft="@android:drawable/stat_sys_phone_call"
+        android:id="@+id/facebookButton"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/facebookButton"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:text="Sign up"
+        android:background="@drawable/custom_button_style"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"/>
+
+    <Button
+        android:id="@+id/angry_btn"
+
+        android:text="Click"
+        android:textColor="#30FF21"
+        android:textSize="32sp"
+
+        android:layout_width="171dp"
+        android:layout_height="46dp"
+        android:background="@drawable/buttonshape"
+        />
+
+</RelativeLayout>
